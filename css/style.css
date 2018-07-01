@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: para;
+    overflow-x: hidden;    
+}
+
+@font-face{
+    font-family: para;
+    src: url('../fonts/romande/Romande-Collection/Romande-Std/TTF/RomandeADFScriptStd-Italic.ttf')
+}
+
+.body1{
+    background: linear-gradient(to bottom, rgba(23, 138, 233, 0.223), rgba(255, 255, 255, 1));
+}
+
+.body2{
+    background: linear-gradient(to bottom, rgba(23, 138, 233, 0.223), white ,rgba(23, 138, 233, 0.223));
+}
+
+ p {
+    color: black;
+    font-size: 1.5rem;
+    font-family: para;
+    font-weight: bold;    
+}
+
+h1, h2, h3{
+    color: rgb(139, 9, 92);
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.logo{
+    color: rgb(200, 15, 224);
+    font-size: 2rem;
+}
+
+.background{
+    background: url('../image/Portfolio images/sky.jpg') no-repeat 50% 50%;
+    background: cover;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+.clr{
+ color: tomato;
+}
+
+.w15{
+    width: 15%
+}
+
+.posti{
+    margin-top: 2%;
+}
+
+.anchor{
+    color: white;
+}
+
+.hov:hover{
+    background: orangered;
+    border-radius: 2rem;
+    color: white;
+
+}
+
+.cen-top{
+    margin-top: 15vh;
+    padding-right: 1%;
+    display: block;
+    font-size: 1.5em;
+}
+
+.nav-item{
+    margin-right: 7% !important;
+}
+
+.nav{
+    margin-top: 2% !important;
+}
+
+
+.active{
+    border: 0.2rem solid  yellow;
+    border-radius: 1rem;
+    background: yellow;
+    color: black;
+    font-weight: bold;
+}
+
+.centered{
+    margin: 0 auto;
+}
+
+.bordered{
+    border-bottom: 0.2rem solid orangered;
+    display: inline-block;
+}
+
+.round{
+    border-radius: 12%;
+}
+
+label{
+    color: orangered;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+input, textarea{
+    background: rgba(243, 243, 59, 0.308);
+    border-left: 0.1rem inset lightgray;
+    border-top: 0.1rem inset lightgray;
+}
+
+.hov-icon:hover{
+    color: yellow;
+}
+
+footer h4{
+    color: orangered;
+}
+
+.shadow-card{
+    box-shadow: 0.3rem 0.3rem 0.3rem lightgrey;
+}
+
+@media only screen and (max-width: 450px) {
+    p {
+        font-size: 1rem;    
+    }
+    
+    h1, h2, h3{
+        font-size: 2rem;
+    }
+
+    header h1{
+        font-size: 1em;
+    }
+
+    header p{
+        font-size: 1em;
+    }
+
+    header .w15{
+        width: 30%;
+    }
+
+    .background{
+        background: url('../image/Portfolio images/sky.jpg') no-repeat 75% 60%;
+        
+    }
+
+    label{
+        display: none;
+    }
+    
+    .form_container{
+        margin-left: 25%;
+        padding-left: 5%;
+    }
+
+
+} 
+
+@media only screen and (min-width: 450px) {
+    label{
+        display: none;
+    }
+    
+    .form_container{
+        margin-left: 25%;
+        padding-left: 5%;
+    }
+
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    label{
+        display: none;
+    }
+    
+    .form_container{
+        margin-left: 25%;
+        padding-left: 5%;
+    }
+
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+    
+    .w-nav{
+        width: 80%
+    }
+    label{
+        display: none;
+    }
+    
+    .form_container{
+        margin-left: 25%;
+        padding-left: 5%;
+    }
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    
+    .w-nav{
+        width: 60%
+    }
+
+    label{
+        display: none;
+    }
+    
+    .form_container{
+        margin-left: 20%;
+        padding-left: 5%;
+    }
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+
+    .w-nav{
+        width: 50%
+    }
+    label{
+        display: block;
+    }
+    .form_container{
+        margin-left: 5%;
+        padding-left: 5%;
+    }
+    
+}
